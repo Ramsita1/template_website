@@ -1,0 +1,51 @@
+/*
+Copy Right Area Style
+======================================================*/
+.copy-right-area {
+  background-color: #ecf0f1;
+}
+
+.copy-right-area .copy-right-bg {
+  border-top: 1px solid #e1e1e1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.copy-right-area p {
+  color: var(--body-color);
+}
+
+.copy-right-area p i {
+  position: relative;
+  top: 2px;
+}
+
+.copy-right-area p a {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.copy-right-area p a:hover {
+  color: var(--main-color);
+}
+
+.copy-right-area .payment-card {
+  float: right;
+}
+
+/*
+Responsive Area Style
+======================================================*/
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .copy-right-area .copy-right-bg {
+    text-align: center;
+  }
+  .copy-right-area .copy-right-bg p {
+    margin-bottom: 15px;
+  }
+  .copy-right-area .payment-card {
+    float: unset;
+  }
+}
+/*# sourceMappingURL=copy-right.css.map */

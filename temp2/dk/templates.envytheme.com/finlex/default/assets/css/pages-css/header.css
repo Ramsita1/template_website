@@ -1,0 +1,177 @@
+/*
+Header Area Style
+======================================================*/
+.top-header {
+  background-color: #1f1d2a;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.top-header .header-left-content {
+  line-height: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  margin-left: -5px;
+}
+
+.top-header .header-left-content li {
+  display: inline-block;
+  margin-right: 15px;
+  color: var(--white-color);
+  border-right: 1px solid var(--white-color);
+  padding-right: 15px;
+  font-size: 14px;
+}
+
+.top-header .header-left-content li:last-child {
+  margin-right: 0;
+  border-right: none;
+  padding-right: 0;
+}
+
+.top-header .header-left-content li span {
+  color: var(--white-color);
+}
+
+.top-header .header-left-content li a {
+  color: var(--white-color);
+}
+
+.top-header .header-left-content li a:hover {
+  color: var(--main-color);
+}
+
+.top-header .header-right-content {
+  line-height: 1;
+  float: right;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.top-header .header-right-content li {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid var(--white-color);
+}
+
+.top-header .header-right-content li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+.top-header .header-right-content li select {
+  padding: 0;
+  background-color: transparent;
+  border: none !important;
+  cursor: pointer;
+  color: var(--white-color);
+  font-size: 15px;
+}
+
+.top-header .header-right-content li select option {
+  color: var(--heading-color);
+}
+
+.top-header .header-right-content li select:focus {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.top-header .header-right-content li:last-child {
+  margin-right: 0;
+}
+
+.top-header .header-right-content .my-account {
+  margin-left: 20px;
+  padding-left: 20px;
+  position: relative;
+  top: 3px;
+  display: inline-block;
+}
+
+.top-header .header-right-content .my-account::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background-color: var(--white-color);
+}
+
+.top-header .header-right-content .my-account a {
+  color: var(--white-color);
+}
+
+.top-header .header-right-content .my-account a i {
+  color: var(--white-color);
+  position: relative;
+  left: 5px;
+  top: 2px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.top-header .header-right-content .my-account a:hover {
+  color: var(--main-color);
+}
+
+/*
+Responsive Area Style
+======================================================*/
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .top-header {
+    text-align: center;
+  }
+  .top-header .header-left-content li {
+    padding-left: 0;
+    margin-right: 0;
+    border-right: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .top-header .header-right-content {
+    float: unset;
+  }
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .top-header .header-left-content {
+    text-align: left;
+  }
+  .top-header .header-left-content li:last-child {
+    margin-bottom: 0;
+  }
+  .top-header .header-right-content {
+    text-align: right;
+  }
+  .top-header .header-right-content li {
+    padding-right: 4px;
+    margin-right: 4px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .top-header .header-left-content li {
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+  .top-header .header-right-content li {
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 28 Apr 2023 16:07:19 at https://templates.envytheme.com/finlex/default/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://templates.envytheme.com/finlex/default/index.html -O1 "E:\temp2\dk" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:08:40	Error: 	"Not Found" (404) at link https://templates.envytheme.com/finlex/default/assets/css/owl.video.play.png (from https://templates.envytheme.com/finlex/default/assets/css/owl.carousel.min.css)
+16:08:40	Error: 	"Not Found" (404) at link https://templates.envytheme.com/finlex/default/assets/fonts/remixicon.svg?t=1590207869815 (from https://templates.envytheme.com/finlex/default/assets/css/remixicon.css)
+16:08:51	Error: 	"Not Found" (404) at link https://templates.envytheme.com/finlex/default/news-details.html (from https://templates.envytheme.com/finlex/default/product-details-left-sidebar.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 32 seconds : 267 links scanned, 263 files written (11208857 bytes overall) [9360531 bytes received at 101744 bytes/sec], 2748240 bytes transferred using HTTP compression in 85 files, ratio 24%, 133.5 requests per connection
+(3 errors, 0 warnings, 0 messages)
